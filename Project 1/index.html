@@ -1,0 +1,77 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/design.css"> 
+<title>Basic Calculator</title>
+
+</head>
+
+
+<body>  
+<div class = "nav">
+  <ul>
+    <li>
+        <a href="index.html" class="nav-link">Simple Calculator</a>
+    </li>
+    <li>
+        <a href="about.html" class="nav-link">About Simple Calculator</a>
+    </li>
+	</ul>
+</div>
+
+
+<div class="calcContainer">
+<table>
+    <tr>
+      <td colspan="5"><input id="display-screen" class="display-screen" name="display" value="" autocomplete="off" type="text">
+       
+      </td>
+	    
+    </tr>
+	   
+    <tr>
+	 <td>
+      <table class="calcKeys">
+          <tr>
+			<td><input class="mathBtn" data-role="number" type="button" id="7" value="7" ></td>
+            <td><input class="mathBtn" data-role="number" type="button" id="8" value="8" ></td>
+            <td><input class="mathBtn" data-role="number" type="button" id="9" value="9"></td>
+            <td><input class="operators" data-role="operator" type="button" id="plus" value="+"></td>
+          </tr>
+          <tr>
+            <td><input class="mathBtn" data-role="number" type="button" id="4" value="4" ></td>
+            <td><input class="mathBtn" data-role="number" type="button" id="5" value="5" ></td>
+            <td><input class="mathBtn" data-role="number" type="button" id="6" value="6" ></td>
+            <td><input class="operators" data-role="operator" type="button" id="minus" value="-" ></td>
+          </tr>
+          <tr>
+            <td><input class="mathBtn" data-role="number" type="button" id="1" value="1"  ></td>
+            <td><input class="mathBtn" data-role="number" type="button" id="2" value="2"></td>
+            <td><input class="mathBtn" data-role="number" type="button" id="3" value="3"></td>
+            <td><input class="operators" data-role="operator" type="button" id="multiply" value="*" ></td>
+			<td><input id="equal" type="button" value="=" ></td>
+          </tr>
+          <tr>
+            <td><input id="clear" type="button"  value="C"></td>
+            <td><input class="mathBtn" data-role="number" id="0" type="button" value="0"></td>
+			<td><input class="mathBtn" data-role="operator"  id="divide" type="button" value="/" ></td>
+            
+
+          </tr>
+	
+        </table>
+		
+      </td>
+
+    </tr>
+	
+    </table>
+    </div>
+   
+    <script src="js/function.js"></script>
+
+    </body>
+    </html>
