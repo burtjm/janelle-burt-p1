@@ -7,8 +7,7 @@ var display = document.getElementById('display-screen'),
     currentInputValue,
     currentOperator,
     displayValue,
-    result,
-    backspaceValue,
+    result,  
     i,
     io;
 	
